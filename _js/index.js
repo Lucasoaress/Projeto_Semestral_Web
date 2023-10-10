@@ -5,7 +5,13 @@ var dados = [
 ];
 
 
+/*
+    Aqui abaixo são os códigos para gerar os cards, precisa alterar 
+    o nome do produto, preço e imagem de acordo com o DB
+*/
+
 for (var i = 0 ; i < dados.length ; i++ ) {
+
 
 var conteudo = 
         `<div class="card">

@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link href="_css/_css.css" rel="stylesheet"/>
+        <script defer src="_js/index.js"></script>    
+        </head>
+    <body>
+        <header>
+            <img class="logomarca" src="_img/PUC_PR-logo-6EF79E6431-seeklogo.com.png"/>
+            <input type="text" placeholder="BUSCAR PRODUTO" class="busca"/>
+            <a><img src="_img/menu.png" class="menu"/></a>
+            <a href="carrinho.html"><img src="_img/carrinho.png" class="carrinho"/></a>
+            
+        </header>
+
+<!--    
+        Aqui pra baixo é o formulário de inclusão.
+        Quando for fazer o banco de dados, acho que é interessante fazer
+        um ID pra item, e deixar sendo gerado automáticamente, assim deixamos a exclusão
+        de acordo com o ID do item tlgd?
+-->
+
+        <div class="pagina_inicial"> 
+            <form class="excluir" id="exclusao">
+                <input id="nome" class="form-incluir" type="text" placeholder="Nome-Item"/></br>
+                <input id="preco" class="form-incluir" type="number" placeholder="Preço-Item"/></br>
+                <label class="form-incluir">Imagem</label></br>
+                <input id="imagem" class="form-incluir" type="file"/></br>
+                <button id="preview" class="excluir">Preview</button>
+                <button id="enviar">Excluir</button>
+            </form>
+        <div class="excluir" id="excluir">
+            <!-- Essa div vai mostrar o produtos que está sendo excluido-->
+        </div>
+            
+        </div>
+    </body>
+</html>
